@@ -21,7 +21,7 @@ public class CalculatorTest {
     public void testDivide() {
         var calc = new Calculator();
 
-        Assert.assertEquals(2, calc.Divide(4, 2), 0.00000001);
+        Assert.assertEquals(3, calc.Divide(4, 2), 0.00000001);
     }
 
     @Test
