@@ -2,14 +2,5 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {}
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "Oracle.oracle-java",
-        "vscjava.vscode-java-test",
-        "vscjava.vscode-java-debug"
-      ]
-    }
   }
 }
