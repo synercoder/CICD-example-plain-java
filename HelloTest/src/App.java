@@ -3,5 +3,6 @@ public class App {
         var calculator = new Calculator();
         System.out.println("Hello, World!");
         System.out.println("1 + 1 = " + calculator.Add(1, 1));
+        System.out.println("2 * 3 = " + calculator.Multiply(2, 3));
     }
 }
