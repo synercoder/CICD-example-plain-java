@@ -1,4 +1,4 @@
-name: Java Test from command line
+name: Java-Cmd
 
 on:
   workflow_dispatch:
