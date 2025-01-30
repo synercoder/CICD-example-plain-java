@@ -15,8 +15,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'oracle'
-    - name: Create bin folder
-      run: mkdir -p HelloTest/bin
     - name: Build classes
       run: |
         javac -d HelloTest/bin -cp \
